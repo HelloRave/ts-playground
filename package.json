@@ -1,0 +1,24 @@
+{
+  "name": "ts-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx tsc",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelloRave/ts-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelloRave/ts-playground/issues"
+  },
+  "homepage": "https://github.com/HelloRave/ts-playground#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
