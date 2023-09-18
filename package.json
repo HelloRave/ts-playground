@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "npx tsc",
-    "start": "node index.js"
+    "tsc": "tsc",
+    "start": "node index.js",
+    "watch": "tsc -w"
   },
   "repository": {
     "type": "git",
