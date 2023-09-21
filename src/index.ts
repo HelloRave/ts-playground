@@ -1,10 +1,7 @@
-// To set in tsconfig - module: amd and outFile
-/// <reference path='namespace/namespace-example.ts' />
+import { VARIABLE_ONE } from "./esmodules";
 
-namespace NameSpaceExample {
-    function test(num: number) {
-        return num++
-    }
-    
-    console.log(test(VARIABLE_ONE))
+function test(num: number) {
+  return num++;
 }
+
+console.log(test(VARIABLE_ONE));

@@ -2,10 +2,10 @@
   "name": "ts-playground",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "tsc": "tsc",
-    "start": "node dist/index.js",
+    "start": "concurrently \"npx tsc\" \"node dist/index.js\"",
     "watch": "tsc -w"
   },
   "repository": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/HelloRave/ts-playground#readme",
   "devDependencies": {
+    "concurrently": "^8.2.1",
     "typescript": "^5.2.2"
   }
 }
