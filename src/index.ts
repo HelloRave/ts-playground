@@ -1,5 +1,10 @@
-function test(num: number) {
-    return num++
-}
+// To set in tsconfig - module: amd and outFile
+/// <reference path='namespace/namespace-example.ts' />
 
-console.log(test(1))
+namespace NameSpaceExample {
+    function test(num: number) {
+        return num++
+    }
+    
+    console.log(test(VARIABLE_ONE))
+}
