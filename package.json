@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/HelloRave/ts-playground#readme",
   "devDependencies": {
+    "@types/node": "^20.9.0",
     "concurrently": "^8.2.1",
     "typescript": "^5.2.2"
   }
